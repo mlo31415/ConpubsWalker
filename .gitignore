@@ -1,0 +1,35 @@
+# Secrets -- never commit
+FTP Credentials.json
+
+# Symlinks to shared sibling modules (recreated by mklinks*.bat)
+FanzineDateTime.py
+FanzineIssueSpecPackage.py
+FTP.py
+HelpersPackage.py
+Locale.py
+Log.py
+PDFHelpers.py
+Settings.py
+WxHelpers.py
+WxDataGrid.py
+ConInstance.py
+
+# Build / packaging artifacts
+build/
+dist/
+__pycache__/
+
+# JetBrains IDE
+.idea/
+
+# Python virtual environment
+.venv/
+
+# Runtime state and generated output
+Log*.txt
+ConpubsWalker Completed.json
+ConpubsWalker Processed.txt
+ConpubsWalker State.json
+ConpubsWalker Headers Done.txt
+ConpubsWalker OCR Done.txt
+abbyy_ocr_out/
